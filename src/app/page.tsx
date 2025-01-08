@@ -14,7 +14,7 @@ export default function Home() {
           <p className="text-xl mb-6 font-medium max-w-3xl mx-auto text-gray-100">
             Empowering businesses across Africa and beyond with innovative, custom-built software solutions. From startups to enterprises, we bring your vision to life with cutting-edge technology and unparalleled expertise.
           </p>
-          <div className="space-y-4 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row items-center">
+          <div className="space-y-4 space-x-4">
             <Button asChild size="lg">
               <Link href="#services">Explore Our Services</Link>
             </Button>
