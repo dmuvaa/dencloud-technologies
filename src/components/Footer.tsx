@@ -30,7 +30,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4 font-poppins">Contact Information</h4>
             <p className="text-gray-400 mb-2">Email: info@dencloudtechnologies.com</p>
             <p className="text-gray-400 mb-2">Phone: +254746197440</p>
-            <p className="text-gray-400">Address: 123 Tech Street, Innovation City, 12345</p>
+            <p className="text-gray-400">Address: Kimathi Street, Nairobi City, Kenya</p>
           </div>
           <div>
             <h4 className="text-lg font-semibold mb-4 font-poppins">Newsletter</h4>
