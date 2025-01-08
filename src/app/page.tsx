@@ -9,7 +9,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-purple-800 to-indigo-900 text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 font-poppins leading-tight">Africa's Premier Software Development Service</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 font-poppins leading-tight">Africa&apos;s Premier Software Development Service</h1>
           <p className="text-xl mb-6 font-medium max-w-3xl mx-auto text-gray-100">
             Empowering businesses across Africa and beyond with innovative, custom-built software solutions. From startups to enterprises, we bring your vision to life with cutting-edge technology and unparalleled expertise.
           </p>
@@ -29,7 +29,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 font-poppins text-gray-900">What We Build: Your Ideas, Our Expertise</h2>
           <p className="text-xl text-center mb-12 max-w-3xl mx-auto text-gray-800">
-            Dencloud Technologies offers a diverse range of services, catering to businesses and individuals across various industries. From mobile apps to AI-driven solutions, we are your one-stop shop for all things tech. Here's a glimpse of what we can create for you:
+            Dencloud Technologies offers a diverse range of services, catering to businesses and individuals across various industries. From mobile apps to AI-driven solutions, we are your one-stop shop for all things tech. Here&apos;s a glimpse of what we can create for you:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ServiceCard
@@ -91,7 +91,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 font-poppins text-gray-900">Our Work Speaks for Itself</h2>
           <p className="text-xl text-center mb-12 max-w-3xl mx-auto text-gray-800">
-            Over the years, we've had the privilege of working on a wide variety of projects. From building robust e-commerce platforms to designing AI-powered analytics tools, our portfolio reflects our commitment to excellence and innovation.
+            Over the years, we&apos;ve had the privilege of working on a wide variety of projects. From building robust e-commerce platforms to designing AI-powered analytics tools, our portfolio reflects our commitment to excellence and innovation.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <ProjectCard
@@ -134,9 +134,9 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-purple-800 to-indigo-900 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 font-poppins">Let's Build Something Amazing Together</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 font-poppins">Let&apos;s Build Something Amazing Together</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-100">
-            Ready to turn your vision into reality? Contact us today and let's create something extraordinary.
+            Ready to turn your vision into reality? Contact us today and let&apos;s create something extraordinary.
           </p>
           <Button asChild size="lg" variant="secondary">
             <Link href="/contact">Get Started Now</Link>

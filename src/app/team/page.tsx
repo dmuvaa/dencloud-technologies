@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Linkedin, Twitter } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Team() {
   return (
@@ -16,13 +17,13 @@ export default function Team() {
           <h2 className="text-3xl font-bold mb-12 text-center font-poppins">Leadership</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <TeamMember
-              name="John Doe"
+              name="Dennis Muvaa"
               role="CEO & Founder"
               bio="With over 20 years of experience in the tech industry, John leads our company with vision and passion."
               imageUrl="/placeholder.svg?height=400&width=400"
             />
             <TeamMember
-              name="Jane Smith"
+              name="Dominic Sengo"
               role="CTO"
               bio="Jane's innovative approach to technology drives our cutting-edge solutions and keeps us ahead of the curve."
               imageUrl="/placeholder.svg?height=400&width=400"
@@ -73,7 +74,7 @@ export default function Team() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-8 font-poppins">Join Our Team</h2>
           <p className="text-xl mb-8">
-            We're always looking for talented individuals to join our growing team. If you're passionate about technology and innovation, we'd love to hear from you!
+            We&apos;re always looking for talented individuals to join our growing team. If you&apos;re passionate about technology and innovation, we&apos;d love to hear from you!
           </p>
           <a href="/careers" className="text-purple-600 hover:text-purple-800 font-semibold text-lg">
             View Open Positions →
@@ -86,7 +87,7 @@ export default function Team() {
 
 const TeamMember = ({ name, role, bio, imageUrl }: { name: string, role: string, bio: string, imageUrl: string }) => (
   <Card>
-    <img src={imageUrl} alt={name} className="w-full h-64 object-cover" />
+    <Image src={imageUrl} alt={name} width={600} height={400} className="w-full h-64 object-cover" />
     <CardHeader>
       <CardTitle>{name}</CardTitle>
       <CardDescription>{role}</CardDescription>

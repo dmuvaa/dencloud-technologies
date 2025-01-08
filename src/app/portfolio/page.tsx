@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
+import Image from 'next/image';
 
 export default function Portfolio() {
   return (
@@ -8,7 +9,7 @@ export default function Portfolio() {
       <section className="py-20 bg-gradient-to-r from-purple-800 to-indigo-900 text-white">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 font-poppins">Our Work Speaks for Itself</h1>
-          <p className="text-xl mb-8">Discover how we've helped businesses achieve their goals.</p>
+          <p className="text-xl mb-8">Discover how we&apos;ve helped businesses achieve their goals.</p>
         </div>
       </section>
 
@@ -80,7 +81,7 @@ export default function Portfolio() {
 
 const ProjectCard = ({ title, description, imageUrl }: { title: string, description: string, imageUrl: string }) => (
   <Card className="overflow-hidden">
-    <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
+    <Image src={imageUrl} alt={title} width={600} height={400} className="w-full h-48 object-cover" />
     <CardHeader>
       <CardTitle>{title}</CardTitle>
     </CardHeader>

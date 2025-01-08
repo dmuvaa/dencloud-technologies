@@ -7,7 +7,7 @@ export default function About() {
       <section className="py-20 bg-gradient-to-r from-purple-800 to-indigo-900 text-white">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 font-poppins">Our African Story</h1>
-          <p className="text-xl mb-8 max-w-3xl text-gray-100">From our roots in Kenya to serving clients across Africa and beyond, Dencloud Technologies is committed to empowering businesses through innovative software solutions. We're not just building software; we're shaping the future of African technology.</p>
+          <p className="text-xl mb-8 max-w-3xl text-gray-100">From our roots in Kenya to serving clients across Africa and beyond, Dencloud Technologies is committed to empowering businesses through innovative software solutions. We&apos;re not just building software; we&apos;re shaping the future of African technology.</p>
         </div>
       </section>
 
@@ -23,7 +23,7 @@ export default function About() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-800">
-                  To empower businesses and individuals through innovative software solutions that drive growth and success. We're committed to delivering cutting-edge technology that solves real-world problems and creates lasting value for our clients.
+                  To empower businesses and individuals through innovative software solutions that drive growth and success. We&apos;re committed to delivering cutting-edge technology that solves real-world problems and creates lasting value for our clients.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -70,7 +70,7 @@ export default function About() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-700">
-                  We're committed to nurturing and showcasing African tech talent. Our team represents the best of what Africa has to offer in software development and innovation.
+                  We&apos;re committed to nurturing and showcasing African tech talent. Our team represents the best of what Africa has to offer in software development and innovation.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -173,15 +173,15 @@ export default function About() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-8 font-poppins text-gray-900">Join Us in Shaping the Future</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-100">
-            At Dencloud Technologies, we're not just building software; we're creating the future. Join us on this exciting journey as we continue to innovate, grow, and make a lasting impact in the world of technology.
+            At Dencloud Technologies, we&apos;re not just building software; we&apos;re creating the future. Join us on this exciting journey as we continue to innovate, grow, and make a lasting impact in the world of technology.
           </p>
           <Card className="bg-white text-gray-800 max-w-2xl mx-auto">
             <CardContent className="text-center py-8">
               <p className="text-lg">
-                "The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt
+                &quot;The future belongs to those who believe in the beauty of their dreams.&quot; - Eleanor Roosevelt
               </p>
               <p className="mt-4">
-                Let's turn your dreams into reality with Dencloud Technologies.
+                Let&apos;s turn your dreams into reality with Dencloud Technologies.
               </p>
             </CardContent>
           </Card>

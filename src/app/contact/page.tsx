@@ -9,7 +9,7 @@ export default function Contact() {
     <div className="bg-gray-100 min-h-screen">
       <section className="py-20 bg-gradient-to-r from-purple-800 to-indigo-900 text-white">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 font-poppins">Let's Build Something Great Together</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 font-poppins">Let&apos;s Build Something Great Together</h1>
           <p className="text-xl mb-8">Get in touch with us to start your next project</p>
         </div>
       </section>
@@ -20,7 +20,7 @@ export default function Contact() {
             <Card>
               <CardHeader>
                 <CardTitle className="text-2xl font-poppins">Contact Us</CardTitle>
-                <CardDescription>Fill out the form and we'll get back to you shortly.</CardDescription>
+                <CardDescription>Fill out the form and we&apos;ll get back to you shortly.</CardDescription>
               </CardHeader>
               <CardContent>
                 <form className="space-y-4">
@@ -52,7 +52,7 @@ export default function Contact() {
               <CardContent className="space-y-4">
                 <div className="flex items-center">
                   <MapPin className="h-5 w-5 mr-2 text-purple-600" />
-                  <p>123 Tech Street, Innovation City, 12345</p>
+                  <p>Kimathi Street, Nairobi City</p>
                 </div>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 mr-2 text-purple-600" />
