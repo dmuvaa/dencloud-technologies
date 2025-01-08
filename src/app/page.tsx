@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { ArrowRight, Code, Globe, ShoppingCart, Cpu, Cloud, Gamepad, Brain, Search, CreditCard, Share2, PenTool, Cog } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -161,7 +162,7 @@ const ServiceCard = ({ icon, title, description }: { icon: React.ReactNode, titl
 
 const ProjectCard = ({ title, description, imageUrl }: { title: string, description: string, imageUrl: string }) => (
   <Card className="h-full">
-    <img src={imageUrl} alt={title} className="w-full h-48 object-cover rounded-t-lg" />
+    <Image src={imageUrl} alt={title} width={600} height={400} className="w-full h-48 object-cover rounded-t-lg" />
     <CardHeader>
       <CardTitle className="text-lg text-gray-900">{title}</CardTitle>
     </CardHeader>
